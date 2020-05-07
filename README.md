@@ -1,6 +1,6 @@
 # Cook Better
 
-Cook Better is an app that helps you to get better at cooking. Isn't that obvious?
+Cook Better is an app that helps you cook better. Isn't that obvious?
 
 ## Project Status
 
@@ -8,8 +8,11 @@ In Development
 
 ## Roadmap
 
-1. [x] Setup Laravel as framework
-2. [x] Setup PostgreSQL database
+1. [x] Set up Laravel as framework
+2. [x] Set up PostgreSQL database
+3. [ ] CRUD recipes
+4. [ ] Set up auth scaffold
+5. [ ] Link users to recipes
 
 ## Installation
 
