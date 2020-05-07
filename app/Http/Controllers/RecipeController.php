@@ -8,9 +8,8 @@ use App\Recipe;
 class RecipeController extends Controller
 {
     //
-    function index(Recipe $recipes)
+    function index()
     {
-        dd($recipes);
-        return true;
+        return view('recipe.index', ['recipes' => Recipe::all()]);
     }
 }
