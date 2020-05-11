@@ -1,3 +1,4 @@
+@extends('layouts.head')
 <div>
     <ol>
         @forelse ($recipes as $recipe)

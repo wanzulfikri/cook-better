@@ -11,6 +11,8 @@ In Development
 1. [x] Set up Laravel as framework
 2. [x] Set up PostgreSQL database
 3. [ ] CRUD recipes
+    1. [x] Index
+    2. [ ] Head layout
 4. [ ] Set up auth scaffold
 5. [ ] Link users to recipes
 
