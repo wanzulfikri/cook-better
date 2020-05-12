@@ -17,4 +17,14 @@ class RecipeController extends Controller
     {
         return view('recipe.create');
     }
+
+    function store(Request $request)
+    {
+
+        $name = $request->name;
+        $recipe = new Recipe;
+        $recipe->name = $name;
+        $recipe->save();
+        return redirect('/recipes');
+    }
 }

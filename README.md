@@ -13,7 +13,9 @@ In Development
 3. [ ] CRUD recipes
     1. [x] Index
     2. [x] Head layout
-    3. [ ] Create
+    3. [x] Create
+    4. [x] Store
+    5. [ ] Show
 4. [ ] Set up auth scaffold
 5. [ ] Link users to recipes
 
