@@ -18,3 +18,5 @@ Route::get('/', function () {
 });
 
 Route::get('/recipes', 'RecipeController@index');
+Route::get('/recipes/create', 'RecipeController@create');
+Route::post('/recipes', 'RecipeController@store');

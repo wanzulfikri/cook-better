@@ -12,4 +12,9 @@ class RecipeController extends Controller
     {
         return view('recipe.index', ['recipes' => Recipe::all()]);
     }
+
+    function create()
+    {
+        return view('recipe.create');
+    }
 }

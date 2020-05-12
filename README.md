@@ -12,7 +12,8 @@ In Development
 2. [x] Set up PostgreSQL database
 3. [ ] CRUD recipes
     1. [x] Index
-    2. [ ] Head layout
+    2. [x] Head layout
+    3. [ ] Create
 4. [ ] Set up auth scaffold
 5. [ ] Link users to recipes
 

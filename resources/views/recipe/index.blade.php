@@ -1,4 +1,5 @@
-@extends('layouts.head')
+@extends('layouts.base')
+@section('content')
 <div>
     <ol>
         @forelse ($recipes as $recipe)
@@ -8,3 +9,4 @@
         @endforelse
     </ol>
 </div>
+@endsection
